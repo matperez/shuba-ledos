@@ -126,6 +126,7 @@ body{
 }
 .gallery_container{
 	width:900px;
+	height: 200px;
 	margin:0 auto;
 }
 .gallery_container .gallery_slider{
