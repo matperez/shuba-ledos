@@ -42,12 +42,15 @@ $(function () {
     var $form = $(this);
     var data = $form.serialize();
     var url = $form.attr('action');
+    var $success = $('#success');
     $
-      .get(url, data)
+      .post(url, data)
       .done(function () {
-        alert('Поздравляем');
         $form.find('[name=name]').val('');
         $form.find('[name=email]').val('');
+      })
+      .always(function() {
+        $success.show();
       });
     return false;
   });
