@@ -20,7 +20,7 @@
 			src: url(../fonts/MullerRegular.ttf);
 		}
 		@font-face {
-			font-family: rouble;
+			font-family: ALS Rubl;
 			src: url(../fonts/ALS Rubl.ttf);
 		}
 		
@@ -47,6 +47,9 @@
 		.muller_black {
 			font-family: MullerBlack, Verdana, sans-serif;
 		}
+		.rouble {
+			font-family: ALS Rubl;
+		}
 		.green {
 			color: #2e5c5c;
 		}
@@ -61,9 +64,6 @@
 			color: #000;
 		}
 		
-		.rouble {
-			font-family: rouble;
-		}
 		.striked{
 			text-decoration: line-through;
 		}
