@@ -1,8 +1,3 @@
-$icon-font-path: '../fonts/';
-
-// bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -10,84 +5,141 @@ $icon-font-path: '../fonts/';
   color: #000;
   padding: 0.2em 0;
 }
-
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: MullerBlack;
+    src: url(../fonts/MullerBlack.ttf);
+}
+@font-face {
+    font-family: MullerBold;
+    src: url(../fonts/MullerBold.ttf);
+}
+@font-face {
+    font-family: MullerRegular;
+    src: url(../fonts/MullerRegular.ttf);
+}
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+	background:url(../images/bg_pattern.gif);
+}
+.hut{
+	position:relative;
+	width:100%;
+	height:648px;
+	background:url(../images/hut.jpg) no-repeat center top;
+}
+.hut .header{
+	position:relative;
+	width:697px;
+	height:648px;
+	margin:0 auto;
+}
+.hut .header .image{
+	position:absolute;
+	width:697px;
+	height:648px;
+	background:url(../images/hut_header.png) no-repeat;
+	margin-top:350px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.timer{
+	position:relative;
+	width:1060px;
+	height:194px;
+	margin:0 auto;
 }
-
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
-  }
+.timer .square{
+	position:relative;
+	background:#bb0b39;
+	float:left;
+	width:100px;
+	height:100px;
 }
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+.timer .square .title{
+	position:relative;
+	background:#bb0b39;
+	float:left;
+	margin-left:0; 
+	width:100px;
+	height:100px;
 }
-
-.container-narrow > hr {
-  margin: 30px 0;
+.timer .square .number{
+	font-family:MullerBlack, Verdana, sans-serif;
+	color:#FFFFFF;
 }
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
+.container{
+	position:relative;
+	width:1060px;
+	background:#FFFFFF;
+	border:0;
+	border-radius:10px;
 }
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
+.menu{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:168px;
+	background:url(../images/menu_bg.png);
 }
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.menu .logo_container{
+	position:relative;
+	top:0;
+	width:1060px;
+	height:168px;
+	margin:0 auto;
 }
+.menu .logo_container .logo{
+	position:absolute;
+	background:url(../images/logo.png) no-repeat;
+	width:441px;
+	height:95px;
+	margin-left:310px;
+	margin-top:20px;
+}
+.menu .logo_container .left{
+	position:absolute;
+	width:400px;
+	height:50px;
+	margin-left:-120px;
+	margin-top:50px;
+	
+	font-family:MullerRegular, Verdana, sans-serif;
+	font-size:24px;
+	color:#FFFFFF;
+	line-height:1.5;
+	text-align:center;
+}
+.menu .logo_container .right{
+	position:absolute;
+	width:270px;
+	height:60px;
+	line-height:60px;
+	background:#ba0b38;
+	margin-left:830px;
+	margin-top:55px;
+	border:0;
+	border-radius:5px;
+	
+	font-family:MullerBold, Verdana, sans-serif;
+	font-size:24px;
+	color:#FFFFFF;
+	text-align:center;
+}
+.gallery_container{
+	width:900px;
+	margin:0 auto;
+}
+.gallery_container .gallery_slider{
+	width:auto;
+	height: 150px;
+	margin:0 auto;
+}
+	
+	
+	
