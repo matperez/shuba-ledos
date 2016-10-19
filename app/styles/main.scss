@@ -19,9 +19,10 @@
 			font-family: MullerRegular;
 			src: url(../fonts/MullerRegular.ttf);
 		}
+		
 		@font-face {
-			font-family: ALS Rubl;
-			src: url(../fonts/ALS Rubl.ttf);
+			font-family: ALSRubl;
+			src: url("../fonts/ALSRubl.ttf");
 		}
 		
 		html {
@@ -34,9 +35,11 @@
 			padding: 0;
 			background: url(../images/bg_pattern.gif);
 		}
-		a{
+		
+		a {
 			text-decoration: none;
 		}
+		
 		.muller_regular {
 			font-family: MullerRegular, Verdana, sans-serif;
 		}
@@ -44,12 +47,15 @@
 		.muller_bold {
 			font-family: MullerBold, Verdana, sans-serif;
 		}
+		
 		.muller_black {
 			font-family: MullerBlack, Verdana, sans-serif;
 		}
+		
 		.rouble {
-			font-family: ALS Rubl;
+			font-family: ALSRubl;
 		}
+		
 		.green {
 			color: #2e5c5c;
 		}
@@ -57,14 +63,12 @@
 		.red {
 			color: #bb0b39;
 		}
+		
 		.white {
 			color: #fff;
 		}
-		.red {
-			color: #000;
-		}
 		
-		.striked{
+		.striked {
 			text-decoration: line-through;
 		}
 		
@@ -258,7 +262,7 @@
 							position: relative;
 							width: 473px;
 							height: 711px;
-							background: url(../images/fota_1) no-repeat;
+							background: url(../images/photo_1.jpg) no-repeat;
 						}
 					}
 				}
@@ -280,29 +284,35 @@
 				background: url(../images/arrow_right.png) no-repeat;
 			}
 		}
-		.promotion{
+		
+		.promotion {
 			position: relative;
 			width: 1030px;
 			height: 610px;
 			margin: 0 15px 0 15px;
-			.banner{
+			.banner {
 				position: absolute;
 				width: 935px;
 				height: 392px;
 				left: 44px;
 				background: url(../images/banner.png) no-repeat;
 			}
-			.banner_top{
+			.banner_top {
 				top: -25px;
 				background: url(../images/banner.png) no-repeat;
 			}
-			.banner_bottom{
+			.banner_bottom {
 				top: 335px;
 				background: url(../images/banner.png) no-repeat;
 				z-index: 5;
 			}
 		}
-		.form{
+		
+		.transform {
+			transform: skewX(-10deg) rotate(-4deg);
+		}
+		
+		.form {
 			position: relative;
 			width: 1030px;
 			height: 212px;
@@ -310,10 +320,10 @@
 			background: #cecece;
 			border: 0;
 			border-radius: 5px;
-			.item{
+			.item {
 				position: absolute;
 				width: 415px;
-				height:55px;
+				height: 55px;
 				top: 31px;
 				border-radius: 5px;
 				background: #FFFFFF;
@@ -321,35 +331,76 @@
 				padding: 0 10px;
 				font-family: MullerBold, Verdana, sans-serif;
 				font-size: 18px;
-
 			}
-			.name{
+			.name {
 				left: 31px;
 			}
-			.mail{
+			.mail {
 				right: 31px;
 			}
-			.button{
+			.button {
 				position: absolute;
-					width: 270px;
-					height: 60px;
-					line-height: 60px;
-					background: #ba0b38;
-					left: 385px;
-					top: 120px;
-					border: 0;
-					border-radius: 5px;
-					font-family: MullerBold, Verdana, sans-serif;
-					font-size: 24px;
-					color: #FFFFFF;
-					text-align: center;
+				width: 270px;
+				height: 60px;
+				line-height: 60px;
+				background: #ba0b38;
+				left: 385px;
+				top: 120px;
+				border: 0;
+				border-radius: 5px;
+				font-family: MullerBold, Verdana, sans-serif;
+				font-size: 24px;
+				color: #FFFFFF;
+				text-align: center;
 			}
 		}
-		.contacts{
+		
+		.contacts {
 			position: relative;
 			overflow: hidden;
 			border: 0;
 			border-radius: 5px;
 			width: 1300px;
 			margin: 0 15px 0 15px;
+			.txt{
+				position: relative;
+				width: 1030px;
+				text-align: center;
+				margin: 20px 0 20px 0;
+			}
+		}
+		.banner_top_text_1{
+			position: absolute;
+			font-size: 60px;
+			text-align: center;
+			left: 100px;
+			top: 55px;
+		}
+		.banner_top_text_2{
+			position: absolute;
+			font-size: 50px;
+			text-align: center;
+			left: 90px;
+			top: 260px;
+		}
+		.banner_top_text_3{
+			position: absolute;
+			font-size: 50px;
+			text-align: center;
+			left: 570px;
+			top: 220px;
+		}
+		.banner_bottom_text_1{
+			position: absolute;
+			text-align: center;
+			font-size: 60px;
+			left: 200px;
+			top: 65px;
+		}
+		.banner_bottom_text_2{
+			position: absolute;
+			text-align: center;
+			font-size: 26px;
+			left: 90px;
+			top: 130px;
 		}
