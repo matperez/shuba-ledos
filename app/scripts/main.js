@@ -19,7 +19,9 @@ $(function() {
                 +'<div class="square seconds">'
                 +'<div class="number">%S</div>'
                 +'<div class="title">секунд</div>'
-                +'</div>'; 
+                +'</div>'
+                +'<div class="timer_title title_left">До начала битвы осталось</div>'
+                +'<div class="timer_title title_right">Успей получить подарок!</div>'
             var $this = $(this).html(event.strftime(template));
         });
 

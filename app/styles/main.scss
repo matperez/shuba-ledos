@@ -20,8 +20,8 @@
 			src: url(../fonts/MullerRegular.ttf);
 		}
 		@font-face {
-			font-family: ALS Rubl;
-			src: url(../fonts/ALS Rubl.ttf);
+			font-family: ALSRubl;
+			src: url("../fonts/ALSRubl.ttf");
 		}
 		
 		html {
@@ -48,7 +48,7 @@
 			font-family: MullerBlack, Verdana, sans-serif;
 		}
 		.rouble {
-			font-family: ALS Rubl;
+			font-family: ALSRubl;
 		}
 		.green {
 			color: #2e5c5c;
@@ -59,9 +59,6 @@
 		}
 		.white {
 			color: #fff;
-		}
-		.red {
-			color: #000;
 		}
 		
 		.striked{
