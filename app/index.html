@@ -36,7 +36,7 @@
       <div class="image"></div>
     </div>
   </div>
-  <div class="timer">
+  <div class="timer" id="timer" data-date="2016-10-28">
     <div class="square days">
       <div class="number">00</div>
       <div class="title">дни</div>
@@ -109,14 +109,12 @@
       <div class="banner banner_bottom"></div>
 
     </div>
-    <form action="">
-      <div class="form">
-        <input type="text" placeholder="Ваши Имя и Фамилия" class="item name">
-        <input type="email" placeholder="Ваш e-mail" class="item mail">
-        <button type="submit" class="button">Отправить</button>
-      </div>
-    </form>
 
+    <form class="form" action="" rel="subscribe-form">
+        <input type="text" placeholder="Ваши Имя и Фамилия" class="item name" name="name" required>
+        <input type="email" placeholder="Ваш e-mail" class="item mail" name="email" required>
+        <button type="submit" class="button">Отправить</button>
+    </form>
 
   </div>
 
@@ -146,6 +144,7 @@
   <script src="/bower_components/jquery/dist/jquery.js"></script>
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="/bower_components/lightbox2/dist/js/lightbox.js"></script>
+  <script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
