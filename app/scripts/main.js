@@ -2,6 +2,13 @@
 
 $(function () {
 
+  $('a.slider-item__image').fancybox({
+    type: 'iframe',
+    showNavArrows: false,
+    width: '580px'
+  });
+
+  // слайдер фоточек
   $('#slider').slick({
     lazyLoad: 'ondemand',
     slidesToShow: 2,

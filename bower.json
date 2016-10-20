@@ -3,9 +3,10 @@
   "private": true,
   "dependencies": {
     "modernizr": "~2.8.1",
-    "lightbox2": "^2.8.2",
     "jquery.countdown": "^2.2.0",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "lightbox2": "^2.8.2",
+    "fancybox": "^2.1.5"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -21,4 +22,3 @@
     "mocha": "^3.1.2"
   }
 }
-
