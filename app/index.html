@@ -25,6 +25,7 @@
   <!-- build:js scripts/vendor/modernizr.js -->
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <!-- endbuild -->
+
 </head>
 
 <body>
@@ -34,7 +35,8 @@
   <div class="menu">
     <div class="logo_container">
       <div class="logo"></div>
-      <div class="left">Новокузнецк, ул. Тольятти, 27а, <br> ТРК «Глобус», 2-й этаж</div>
+      <div class="adrs white muller_regular">Новокузнецк, ул. Тольятти, 27А, ТРК «ГЛОБУС», 2 этаж</div>
+      <a href="https://vk.com/bitvafabrik" class="left"></a>
       <a href="#promotion" class="right">Получить подарок</a>
     </div>
   </div>
@@ -61,13 +63,33 @@
       <div class="number">00</div>
       <div class="title">секунды</div>
     </div>
-    <div class="timer_title title_left">До начала битвы осталось</div>
-    <div class="timer_title title_right">Успей получить подарок!</div>
+    <div class="timer_title title_left">До начала<br>битвы<br>осталось</div>
+    <div class="timer_title title_right">Успей<br>получить<br>подарок!</div>
   </div>
-
+<div class="container_main">
   <div class="container">
 
     <div class="slider" id="slider">
+
+      <div class="slider-item">
+        <div class="slider-item__name">Шубка из кролика с выделкой под шиншиллу</div>
+        <div class="slider-item__price">
+          <div class="price price--old">
+            <span class="price__value">51 800<div class="price__currency">a</div></span>
+          </div>
+          <div class="price price">
+            <span class="price__value">25 900<div class="price__currency">a</div></span>
+          </div>
+        </div>
+        <a class="slider-item__image" href="photos/krolik_shinshilla_1.jpg">
+          <img 
+            src=""
+            alt="Шубка из кролика с выделкой под шиншиллу" 
+            data-lazy="photos/krolik_shinshilla_1.jpg" 
+            width="473"
+            height="711"/>
+        </a>
+      </div>
 
       <div class="slider-item">
         <div class="slider-item__name">Автоледи» из норки</div>
@@ -903,7 +925,8 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1402.4578298386837!2d87.14506122616717!3d53.76023034753943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42d0c173e7d278dd%3A0xbafccbf37e34bbeb!2z0KjRg9Cx0LDQvNCw0L3QuNGPLCDQvNCw0LPQsNC30LjQvQ!5e0!3m2!1sru!2sru!4v1476897034889"
           width="1030" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
-    </div>
+      <div class="social_container"><a href="https://vk.com/bitvafabrik" class="vk_button"></a><div class="vk_text black muller_regular">Следите за нами «В контакте»:</div></div>
+    </div></div>
   </div>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -915,7 +938,6 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <script src="/bower_components/modernizr/modernizr.js"></script>
@@ -924,6 +946,7 @@
   <script src="/bower_components/slick-carousel/slick/slick.js"></script>
   <script src="/bower_components/lightbox2/dist/js/lightbox.js"></script>
   <script src="/bower_components/fancybox/source/jquery.fancybox.js"></script>
+
   <!-- endbower -->
   <!-- endbuild -->
 

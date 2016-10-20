@@ -39,8 +39,8 @@ $(function () {
           <div class="number">%S</div>
           <div class="title">секунд</div>
         </div>
-        <div class="timer_title title_left">До начала битвы осталось</div>
-        <div class="timer_title title_right">Успей получить подарок!</div>`;
+        <div class="timer_title title_left">До начала<br>битвы<br>осталось</div>
+        <div class="timer_title title_right">Успей<br>получить<br>подарок!</div>`;
       var $this = $(this).html(event.strftime(template));
     });
 

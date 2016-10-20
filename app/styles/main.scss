@@ -4,6 +4,11 @@
   color: #000;
   padding: 0.2em 0;
 }
+#all { -webkit-transform-origin: 0 0;
+ -o-transform-origin: 0 0;
+ -ms-transform-origin: 0 0;
+ -moz-transform-origin: 0 0;
+ transform-origin: 0 0; }
 
 @font-face {
   font-family: MullerBlack;
@@ -79,7 +84,7 @@ a {
   background: url(../images/hut.jpg) no-repeat center top;
   .header {
     position: relative;
-    width: 697px;
+    width: 50px;
     height: 648px;
     margin: 0 auto;
     z-index: 10;
@@ -89,6 +94,7 @@ a {
       height: 520px;
       background: url(../images/hut_header.png) no-repeat;
       margin-top: 350px;
+      left:-323px;
     }
     .shadow {
       position: absolute;
@@ -96,7 +102,7 @@ a {
       height: 8px;
       background: url(../images/shadow.png) no-repeat;
       bottom: -8px;
-      left: -163px;
+      left: -483px;
     }
   }
 }
@@ -135,11 +141,11 @@ a {
   }
   .timer_title {
     position: absolute;
-    width: 450px;
-    top: 78px;
+    width: 190px;
+    top: 65px;
     font-family: MullerBold, Verdana, sans-serif;
     color: #bb0b39;
-    font-size: 40px;
+    font-size: 35px;
   }
   .days {
     left: -270px;
@@ -154,11 +160,11 @@ a {
     right: -270px;
   }
   .title_left {
-    left: -750px;
+    left: -510px;
     text-align: right;
   }
   .title_right {
-    right: -750px;
+    right: -510px;
     text-align: left;
   }
 }
@@ -173,7 +179,7 @@ a {
   .logo_container {
     position: relative;
     top: 0;
-    width: 1060px;
+    width: 50px;
     height: 168px;
     margin: 0 auto;
     .logo {
@@ -181,20 +187,26 @@ a {
       background: url(../images/logo.png) no-repeat;
       width: 441px;
       height: 95px;
-      left: 310px;
+      left: -195px;
       top: 20px;
+    }
+    .adrs {
+      position: absolute;
+      text-align:center;
+      width: 441px;
+      height: 30px;
+      left: -195px;
+      top: 130px;
     }
     .left {
       position: absolute;
-      width: 400px;
-      height: 50px;
-      left: -120px;
-      top: 50px;
-      font-family: MullerRegular, Verdana, sans-serif;
-      font-size: 24px;
-      color: #FFFFFF;
-      line-height: 1.5;
-      text-align: center;
+      width: 270px;
+      height: 60px;
+      left: -535px;
+      top: 55px;
+      border: 0;
+      border-radius: 5px;
+      background:url(../images/vk.png) no-repeat center;
     }
     .right {
       position: absolute;
@@ -202,7 +214,7 @@ a {
       height: 60px;
       line-height: 60px;
       background: #ba0b38;
-      right: -30px;
+      right: -535px;
       top: 55px;
       border: 0;
       border-radius: 5px;
@@ -213,15 +225,20 @@ a {
     }
   }
 }
-
+.container_main {
+  position: relative;
+  width: 50px;
+  margin: 0 auto 70px auto;
+}
 .container {
   position: relative;
   width: 1060px;
-  margin: 0 auto 70px auto;
   background: #FFFFFF;
   border: 0;
   border-radius: 10px;
-  padding: 15px 0 15px 0;
+  left:-505px;
+
+  padding: 15px 0;
 }
 
 .slider {
@@ -354,13 +371,37 @@ a {
   overflow: hidden;
   border: 0;
   border-radius: 5px;
-  width: 1300px;
-  margin: 0 15px 0 15px;
+  width: 1030px;
+  margin: 0 15px;
   .txt {
     position: relative;
     width: 1030px;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
+  }
+  .social_container{
+  position:relative;
+  width:60px;
+  height:60px;
+  margin:10px auto 0 auto;
+
+  .vk_button{
+  position:absolute;
+  width:270px;
+  height:60px;
+  left:-105px;
+  border:0;
+  border-radius:5px;
+  background: url(../images/vk.png) no-repeat center;
+  }
+  .vk_text{
+  position:absolute;
+  width:270px;
+  height:30px;
+  left:-390px;
+  top:20px;
+  font-size:18px;
+  }
   }
 }
 
